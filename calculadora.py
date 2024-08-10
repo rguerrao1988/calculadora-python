@@ -1,12 +1,12 @@
 print("horas extras")
 
 HoraTrabajo=  7659
-HoraExtraDominical = HoraTrabajo*2
+HD=HoraExtraDominical = HoraTrabajo*2
 HoraExtraOrdinario = HoraTrabajo*float(1.25)
 
-Dominicales= input("total dominicales: ")
-ExtrasOrdinaria = input("total horas ordinarias: ")
-Tdominical= int(HoraExtraDominical*Dominicales)
+D=int(Dominicales= input("total dominicales: "))
+E=int(ExtrasOrdinaria = input("total horas ordinarias: "))
+Tdominical= (HD*D)
 
 print(Tdominical)
 print("hola")
