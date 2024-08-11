@@ -5,7 +5,7 @@ def calculadora(num_1, operacion, num_2):
         return num_1 + num_2
     elif operacion == '-':
         return num_1 - num_2
-    elif operacion == '*' or operacion == "x":
+    elif operacion == '*' or operacion == "x": # ususario puede usar  * ó x
         return num_1 * num_2
     elif operacion == '/':
         if num_2 != 0:
@@ -15,5 +15,4 @@ def calculadora(num_1, operacion, num_2):
     else:
         return "Operación no válida"
 total = calculadora(int(input("primer numero: ")), str(input("operador? ")), int(input("segundo numero: ")),)
-# Ejemplos de uso:
-print(total)          # Output: 10
+print(total)          
